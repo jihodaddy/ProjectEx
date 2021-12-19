@@ -1,0 +1,160 @@
+@font-face{
+	font-family: abster;
+	src:url(../font/abster-webfont.woff) format('woff');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: white;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 21px;
+}
+
+.container .wrap{
+    width: 768px;
+}
+
+.logoBox{
+    padding: 55px;
+}
+
+.title h1 a{
+    margin: 0;
+    text-decoration: none;
+    font-family: abster;
+    color: black;
+}
+
+.logoBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginBox{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-input{
+    width: 465px;
+    height: 48px;
+    border: solid 1px black;
+    background: white;
+}
+
+.pwd{
+    margin-top: 13px;
+}
+.login-input input{
+    border:none;
+    width: 430px;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: 10px;
+    height:30px;
+}
+
+.loginButton{
+    padding-top: 13px;
+}
+.loginButton button{
+    width: 465px;
+    height: 48px;
+    font-size: 18px;
+    background: #3e2723;
+    color: white;
+    border: solid 1px black;
+}
+.loginStay{
+    width: 465px;
+    height: 52px;
+    display: flex;
+    font-size: 15px;
+    color: #4e4e4e;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: solid 1px black;
+}
+.loginStay i{
+    font-size: 25px;
+    color:  #9ba1a3;
+}
+
+.loginStay span{
+    padding-left: 5px;
+    line-height: 25px;
+}
+
+.easyLoginBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.easyLoginBox h2{
+    font-size: 20px;
+}
+.easyLoginList{
+    padding-top: 25px;
+    list-style: none;
+    width: 465px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.easyLoginList li{
+    padding-bottom: 10px;
+}
+.easyLoginList li button{
+    width: 465px;
+    height: 56px;
+    border: solid 1px black;
+    text-align: left;
+    background: white;
+}
+.easyLoginList li button i{
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.fa-facebook-square{
+    color: #4064ac;
+}
+.fa-google{
+    color: lightgray;
+}
+.easyLoginList li button span{
+    padding-left: 20px;
+    font-size: 18px;
+}
+.forgetMsg{
+    color: var(--font-color);
+    font-size: 14px;
+    padding-top: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15px;
+}
+
+.copyright-wrap span{
+    font-size: 13px;
+    line-height: 15px;
+}

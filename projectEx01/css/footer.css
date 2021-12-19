@@ -1,0 +1,19 @@
+/* footer.css */
+
+#footerBox{
+    background-color: #3e2723;
+}
+#bottomMenuItem li{
+    /* float: left; */
+    display: inline-block;
+    margin-top: 15px;;
+    padding: 0 40px;
+}
+#bottomMenuItem li a{
+    color: white;
+}
+
+#companyInfo{
+    color: white;
+    margin-top: 15px;;
+}

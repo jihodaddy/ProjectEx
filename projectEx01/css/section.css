@@ -1,0 +1,68 @@
+/* section.css */
+
+/* ******topSection ************/
+section{
+    margin-top: 15px;
+}
+#topSecTitle{
+    margin: 0 20px;
+    text-align: left;
+}
+.topSecItem{
+    margin: 15px 15px;
+
+    display: inline-block;
+}
+
+.topSecItem a:hover{
+    opacity: 0.7;
+}
+
+/* ************midSection******************* */
+.midSection{
+    position: relative;
+}
+
+.sec2Img{
+    width: 1280px;
+    height: 300px;
+    opacity: 0.9;
+    
+}
+
+.sec2Msg{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    line-height: 150px;
+    z-index:1;
+}
+
+/************************ btmSection******************* */
+.btmSection{
+    margin-top: 15px;
+}
+#btmSecTitle{
+    margin: 0 20px;
+    text-align: left;
+}
+
+.btmSecItem{
+    border: 5px solid black;
+    border-radius: 10px;
+    margin:15px 0;
+    overflow: hidden;   
+}
+
+
+.btmSecImg{
+    margin: 0;
+    padding: 0;
+    width: 345px;
+    height: 190px;
+    float:left;
+}
+
+.btmSecText{
+    line-height: 40px;
+}

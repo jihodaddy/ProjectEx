@@ -1,0 +1,92 @@
+ /*  menu.css  */
+@font-face{
+	font-family: abster;
+	src:url(../font/abster-webfont.woff) format('woff');
+}
+
+
+ul{
+     margin-top: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ /************ TOP MENU *********************/
+#headerWrap{
+    height: 100px;
+    /* background-color: #6a4f4b; */
+
+}
+#headerBox{
+    /* background-color: #eceff1; */
+    height: 400px;
+}
+#headerTop{
+    /* font-weight: bold;  */
+    float: right;
+}
+#headerTop>div{
+    display: inline-block;
+}
+
+#topMenu li{
+    float: left;
+    padding: 5px;
+}
+
+#topMenu li a{
+    color: black;
+    cursor: pointer;
+	transition: all .4s;
+}
+#topMenu li a:hover{
+   color: green;
+}
+
+#login li{
+    float: left;
+    padding: 3px;
+}
+
+#logoBox{
+    float: left;
+}
+
+.title h1 a{
+    margin: 0;
+    text-decoration: none;
+    font-family: abster;
+    color: black;
+}
+
+
+/* *************** NAV BAR ************************ */
+
+.navBar{
+    margin: 0 auto;
+    width: 70%;
+    background-color: #004d40;
+    color: white;
+    font-size: 20px;
+    border: 3px solid #1b0000;
+    border-radius: 10px;
+}
+.navBar div{
+    display: inline-block;
+    padding: 5px;
+}
+.navBar div h3{
+    line-height: 5px;
+}
+#search{
+    width: 400px;
+    height: 40px;
+    border: 3px solid #000000;
+    
+}
+
+#searchButton{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}

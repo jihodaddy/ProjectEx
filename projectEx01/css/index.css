@@ -1,0 +1,21 @@
+*{
+    margin :0 auto;
+}
+
+#wrap{
+    width: 1280px;
+    background-color: #eceff1;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    text-align: center; /* 중앙정렬*/
+    position: relative;
+}
+
+img{
+    border: 0;
+    margin: 0;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+}
